@@ -1,0 +1,35 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.panel-title {
+    font-size: 18px;
+}
+
+.reposlist {
+    font-size: 18px;
+    margin: 5px;  
+}
+
+
+#thenBlock, #elseBlock {
+    font-size: 18px;
+}
+
+.starRating {
+    max-width: 20px;
+}
+
+#avatar {
+    width: 125px;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 479px) {
+    #deskContent {display:none;}
+    .reposlist {display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;}
+}

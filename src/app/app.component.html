@@ -1,0 +1,14 @@
+<div style="text-align:center">
+  <h1>
+    Search for repositiries by name
+  </h1>
+  <img width="300" src="http://cameronmcefee.com/img/work/the-octocat/femalecodercat.jpg">
+</div>
+<div>
+  <input [(ngModel)]="repoName" name="repoName" id='userInput' placeholder='Repo name' required>
+</div>
+<div>
+  <button id='submitButton' (click)="onSearch()">Submit</button>
+</div>
+
+<repos-list></repos-list>
